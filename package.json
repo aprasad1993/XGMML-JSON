@@ -1,0 +1,11 @@
+{
+  "name": "xml-json-converter",
+  "description": "An evented streaming XML parser in JavaScript",
+  "author": "Anurag Prasad <aprasad1993@gmail.com>",
+  "version": "0.0.1",
+  "license": "NRNB",
+  "dependencies": {
+    "sax": "0.6.0"
+  }
+
+}

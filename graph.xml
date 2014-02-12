@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<graph label="small example" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:cy="http://www.cytoscape.org" 
+    xmlns="http://www.cs.rpi.edu/XGMML"  
+    directed="1">
+  <node label="A" id="1">
+    <att name="size" type="integer" value="24"/>
+    <att name="confirmed" type="boolean" value="true"/>
+  </node>
+  <node label="B" id="2">
+    <att name="size" type="integer" value="16"/>
+    <att name="confirmed" type="boolean" value="false"/>
+  </node>
+  <node label="C" id="3">
+    <att name="size" type="integer" value="13"/>
+    <att name="confirmed" type="boolean" value="true"/>
+  </node>
+  <edge label="A-B" source="1" target="2">
+    <att name="weight" type="integer" value="7"/>
+  </edge>
+  <edge label="B-C" source="2" target="3">
+    <att name="weight" type="integer" value="8"/>
+  </edge>
+  <edge label="C-A" source="3" target="1">
+    <att name="weight" type="integer" value="4"/>
+  </edge>
+</graph>
